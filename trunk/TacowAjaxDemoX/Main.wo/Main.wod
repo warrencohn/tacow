@@ -1,0 +1,11 @@
+Hyperlink1: WOHyperlink {
+	href = "javascript:getTestValue();";
+}
+
+Hyperlink2: WOHyperlink {
+	pageName = "SimpleDemo";
+}
+
+Hyperlink3: WOHyperlink {
+	pageName = "ColourPickerDemo";
+}

@@ -1,0 +1,8 @@
+AjaxProxy: AjaxProxy {
+	name = "jsonrpc";
+	proxyName = "wopage";
+}
+
+Hyperlink1: WOHyperlink {
+	href = "javascript:alert(jsonrpc.wopage.sayThis(theMessage));";
+}

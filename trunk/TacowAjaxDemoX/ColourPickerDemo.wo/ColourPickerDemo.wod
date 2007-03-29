@@ -1,0 +1,31 @@
+BlueSlider: AjaxSlider {
+	minimum = 0;
+	onChange = "function(v) {pushBlueValue(v)}";
+	maximum = 255;
+	orientation = "vertical";
+	value = blueValue;
+}
+
+GreenSlider: AjaxSlider {
+	minimum = 0;
+	maximum = 255;
+	onChange = "function(v) {pushGreenValue(v)}";
+	orientation = "vertical";
+	value = greenValue;
+}
+Hyperlink1: WOHyperlink {
+	href = "javascript:getTestValue();";
+}
+
+Proxy: AjaxProxy {
+	name = "jsonrpc";
+	proxyName = "wopage";
+}
+
+RedSlider: AjaxSlider {
+	minimum = 0;
+	maximum = 255;
+	onChange = "function(v) {pushRedValue(v)}";
+	orientation = "vertical";
+	value = redValue;
+}

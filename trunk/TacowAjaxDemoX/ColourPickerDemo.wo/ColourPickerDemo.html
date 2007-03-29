@@ -1,0 +1,96 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+    <head>
+        <meta name="generator" content="WOLips Templateengine Plug-in">
+        <title>Ajax Colour Picker</title>
+        <style type="text/css"> 
+			body {
+				/*border: 1px solid black;*/
+				margin: 50px auto 50px auto;
+				width: 220px;
+				height: 200px;
+			}
+			.slider {
+				float:left;
+				margin: 0 5px 0 5px;
+			}
+			.tracker { 
+				background-color: #aaa; 
+				height: 150px; 
+				width: 10px;
+				border: 1px solid #333;
+ 			} 
+			#red .tracker {
+				background-color: red;
+			}
+			#green .tracker {
+				background-color: green;
+			}
+			#blue .tracker {
+				background-color: blue;
+			}
+			.handle { 
+				cursor: move;
+				background-color: #eee; 
+				width: 10px; 
+				height: 4px;
+				border-bottom: 1px solid #333;
+			}
+			#color-box {
+				float: left;
+				border: 1px solid #333;
+				width: 150px;
+				height: 150px;
+			}
+			#color-box-label {
+				font-family: Courier New, Courier, mono;
+				color: #666;
+				width: 150px;
+				text-align: center;
+			}
+		</style>
+		<script type="text/javascript"><!--
+			function pushRedValue(v) {
+				jsonrpc.wopage.pushRedValue(v);
+				changeTheColor();
+			}
+			function pushGreenValue(v) {
+				jsonrpc.wopage.pushGreenValue(v);
+				changeTheColor();
+			}
+			function pushBlueValue(v) {
+				jsonrpc.wopage.pushBlueValue(v);
+				changeTheColor();
+			}
+			function changeTheColor() {
+				var hexColor = jsonrpc.wopage.hexColorValue();
+				changecolor("color-box", hexColor)
+			}
+			function changecolor(id, color) { 
+				element = document.getElementById(id);  
+				element.style.backgroundColor = color; 
+				document.getElementById(id+"-label").innerHTML = color;
+			} 
+			function getTestValue() {
+				var value = jsonrpc.wopage.sayHello("Hello");
+				alert(value);
+			}
+	//--></script>
+    </head>
+    <body bgcolor=#FFFFFF>
+		<webobject name="Proxy"></webobject>
+		<div id="color-box" style="background-color: #eeeeee">
+		</div>
+		<div class="slider" id="red">
+        <webobject name="RedSlider"></webobject>
+		</div>
+		<div class="slider" id="green">
+        <webobject name="GreenSlider"></webobject>
+		</div>
+		<div class="slider" id="blue">
+        <webobject name="BlueSlider"></webobject>
+		</div>
+		<div id="color-box-label"></div>
+</body>
+</html>

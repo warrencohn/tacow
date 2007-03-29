@@ -1,0 +1,4 @@
+Proxy: AjaxProxy {
+	name = "json";
+	proxyName = "wopage";
+}
