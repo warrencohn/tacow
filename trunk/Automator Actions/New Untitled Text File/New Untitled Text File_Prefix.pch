@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'New Untitled Text File' target in the 'New Untitled Text File' project.
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
