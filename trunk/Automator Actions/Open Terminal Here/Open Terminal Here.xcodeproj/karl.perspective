@@ -287,8 +287,8 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>7</integer>
-									<integer>5</integer>
+									<integer>3</integer>
+									<integer>1</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -330,7 +330,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>CB709BF60997E66400098C10</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>Info.plist</string>
+								<string>Open Terminal Here.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -338,21 +338,14 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>CB709BF70997E66400098C10</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>Info.plist</string>
+										<string>Open Terminal Here.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>CB0B73110BCA948300ABD397</string>
+										<string>CBB474170BCB2FCA005A3938</string>
 										<key>history</key>
 										<array>
-											<string>CB0B730C0BCA948300ABD397</string>
-											<string>CB0B730D0BCA948300ABD397</string>
-											<string>CB0B730E0BCA948300ABD397</string>
-										</array>
-										<key>prevStack</key>
-										<array>
-											<string>CB0B730F0BCA948300ABD397</string>
-											<string>CB0B73100BCA948300ABD397</string>
+											<string>CBB474120BCB2FCA005A3938</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -452,11 +445,11 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>CB0B73120BCA948300ABD397</string>
+				<string>CBB474140BCB2FCA005A3938</string>
 				<string>1CA23ED40692098700951B8B</string>
-				<string>CB0B73130BCA948300ABD397</string>
+				<string>CBB474150BCB2FCA005A3938</string>
 				<string>CB709BF60997E66400098C10</string>
-				<string>CB0B73140BCA948300ABD397</string>
+				<string>CBB474160BCB2FCA005A3938</string>
 				<string>1CA23EDF0692099D00951B8B</string>
 				<string>1CA23EE00692099D00951B8B</string>
 				<string>1CA23EE10692099D00951B8B</string>
@@ -857,7 +850,7 @@
 	<key>StatusbarIsVisible</key>
 	<true/>
 	<key>TimeStamp</key>
-	<real>197825262.410144</real>
+	<real>197865403.23983401</real>
 	<key>ToolbarDisplayMode</key>
 	<integer>2</integer>
 	<key>ToolbarIsVisible</key>
@@ -872,7 +865,7 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>/Users/karl/Desktop/Open Terminal Here/Open Terminal Here.xcodeproj</string>
+		<string>/Users/karl/Projects/tacow/Automator Actions/Open Terminal Here/Open Terminal Here.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
 	<string>0 39 1637 989 0 0 1680 1028 </string>

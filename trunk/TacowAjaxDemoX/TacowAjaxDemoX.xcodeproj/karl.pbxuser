@@ -1,0 +1,120 @@
+// !$*UTF8*$!
+{
+	013357CCFF5DD5F011CD2B9D /* Project object */ = {
+		activeBuildConfigurationName = Development;
+		activeExecutable = C6E4231E007BED7904000001 /* TacowAjaxDemoX */;
+		activeTarget = 017C6100FFD43DA37F000001 /* TacowAjaxDemoX */;
+		codeSenseManager = CBB473D90BCB2FA8005A3938 /* Code sense */;
+		executables = (
+			C6E4231E007BED7904000001 /* TacowAjaxDemoX */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					1000,
+					20,
+					48.1626,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 197865363;
+			PBXWorkspaceStateSaveDate = 197865363;
+		};
+		perUserProjectItems = {
+			CBB473D20BCB2FA8005A3938 /* PBXTextBookmark */ = CBB473D20BCB2FA8005A3938 /* PBXTextBookmark */;
+			CBB473D30BCB2FA8005A3938 /* PBXTextBookmark */ = CBB473D30BCB2FA8005A3938 /* PBXTextBookmark */;
+		};
+		sourceControlManager = CBB473D80BCB2FA8005A3938 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	017C60B4FFD2F2BB7F000001 /* Application Server */ = {
+		activeExec = 0;
+	};
+	017C60D6FFD2F2BB7F000001 /* Web Server */ = {
+		activeExec = 0;
+	};
+	017C6100FFD43DA37F000001 /* TacowAjaxDemoX */ = {
+		activeExec = 0;
+		executables = (
+			C6E4231E007BED7904000001 /* TacowAjaxDemoX */,
+		);
+	};
+	2123FDF6FFD467417F000001 /* Application.java */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1349, 926}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 0}, {1349, 926}}";
+		};
+	};
+	C6E4231E007BED7904000001 /* TacowAjaxDemoX */ = {
+		isa = PBXExecutable;
+		activeArgIndex = 2147483647;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = JavaDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = TacowAjaxDemoX;
+		sourceDirectories = (
+		);
+	};
+	CBB473D20BCB2FA8005A3938 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2123FDF6FFD467417F000001 /* Application.java */;
+		name = "Application.java: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 498;
+		vrLoc = 0;
+	};
+	CBB473D30BCB2FA8005A3938 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2123FDF6FFD467417F000001 /* Application.java */;
+		name = "Application.java: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 498;
+		vrLoc = 0;
+	};
+	CBB473D80BCB2FA8005A3938 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 1;
+		scmConfiguration = {
+		};
+		scmType = scm.subversion;
+	};
+	CBB473D90BCB2FA8005A3938 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+}

@@ -106,16 +106,12 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 197825262;
-			PBXWorkspaceStateSaveDate = 197825262;
+			PBXPerProjectTemplateStateSaveDate = 197865403;
+			PBXWorkspaceStateSaveDate = 197865403;
 		};
 		perUserProjectItems = {
-			CB0B730C0BCA948300ABD397 /* PBXTextBookmark */ = CB0B730C0BCA948300ABD397 /* PBXTextBookmark */;
-			CB0B730D0BCA948300ABD397 /* PBXTextBookmark */ = CB0B730D0BCA948300ABD397 /* PBXTextBookmark */;
-			CB0B730E0BCA948300ABD397 /* PBXBookmark */ = CB0B730E0BCA948300ABD397 /* PBXBookmark */;
-			CB0B730F0BCA948300ABD397 /* PBXTextBookmark */ = CB0B730F0BCA948300ABD397 /* PBXTextBookmark */;
-			CB0B73100BCA948300ABD397 /* PBXTextBookmark */ = CB0B73100BCA948300ABD397 /* PBXTextBookmark */;
-			CB0B73110BCA948300ABD397 /* PBXTextBookmark */ = CB0B73110BCA948300ABD397 /* PBXTextBookmark */;
+			CBB474120BCB2FCA005A3938 /* PBXTextBookmark */ = CBB474120BCB2FCA005A3938 /* PBXTextBookmark */;
+			CBB474170BCB2FCA005A3938 /* PBXTextBookmark */ = CBB474170BCB2FCA005A3938 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 658A2DCF067AB96600421F51 /* Source Control */;
 		userBuildSettings = {
@@ -138,7 +134,7 @@
 	65181750067A8D39005BD953 /* Open Terminal Here.m */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1272, 926}}";
-			sepNavSelRange = "{352, 100}";
+			sepNavSelRange = "{937, 0}";
 			sepNavVisRect = "{{0, 0}, {1272, 926}}";
 		};
 	};
@@ -197,62 +193,28 @@
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1272, 1372}}";
 			sepNavSelRange = "{752, 0}";
-			sepNavVisRect = "{{0, 242}, {1272, 926}}";
+			sepNavVisRect = "{{0, 238}, {1272, 926}}";
 			sepNavWindowFrame = "{{15, 109}, {1237, 764}}";
 		};
 	};
-	CB0B730C0BCA948300ABD397 /* PBXTextBookmark */ = {
+	CBB474120BCB2FCA005A3938 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 65181750067A8D39005BD953 /* Open Terminal Here.m */;
-		name = "Open Terminal Here.m: 16";
-		rLen = 100;
-		rLoc = 352;
-		rType = 0;
-		vrLen = 937;
-		vrLoc = 0;
-	};
-	CB0B730D0BCA948300ABD397 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 089C167EFE841241C02AAC07 /* English */;
-		name = "English: 7";
-		rLen = 266;
-		rLoc = 170;
-		rType = 0;
-		vrLen = 436;
-		vrLoc = 0;
-	};
-	CB0B730E0BCA948300ABD397 /* PBXBookmark */ = {
-		isa = PBXBookmark;
-		fRef = 8D5B49B7048680CD000E48DA /* Info.plist */;
-	};
-	CB0B730F0BCA948300ABD397 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 65181750067A8D39005BD953 /* Open Terminal Here.m */;
-		name = "Open Terminal Here.m: 16";
-		rLen = 100;
-		rLoc = 352;
-		rType = 0;
-		vrLen = 937;
-		vrLoc = 0;
-	};
-	CB0B73100BCA948300ABD397 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 089C167EFE841241C02AAC07 /* English */;
-		name = "English: 7";
-		rLen = 266;
-		rLoc = 170;
-		rType = 0;
-		vrLen = 436;
-		vrLoc = 0;
-	};
-	CB0B73110BCA948300ABD397 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 8D5B49B7048680CD000E48DA /* Info.plist */;
-		name = "Info.plist: 32";
+		name = "Open Terminal Here.m: 39";
 		rLen = 0;
-		rLoc = 752;
+		rLoc = 932;
 		rType = 0;
-		vrLen = 1616;
-		vrLoc = 433;
+		vrLen = 937;
+		vrLoc = 0;
+	};
+	CBB474170BCB2FCA005A3938 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 65181750067A8D39005BD953 /* Open Terminal Here.m */;
+		name = "Open Terminal Here.m: runWithInput:fromAction:error:";
+		rLen = 0;
+		rLoc = 937;
+		rType = 0;
+		vrLen = 937;
+		vrLoc = 0;
 	};
 }

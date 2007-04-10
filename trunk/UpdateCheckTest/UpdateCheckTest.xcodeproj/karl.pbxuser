@@ -1,0 +1,107 @@
+// !$*UTF8*$!
+{
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Release;
+		activeExecutable = CBB4738E0BCB2F76005A3938 /* UpdateCheckTest */;
+		activeTarget = 8D1107260486CEB800E47090 /* UpdateCheckTest */;
+		codeSenseManager = CBB473AD0BCB2F8B005A3938 /* Code sense */;
+		executables = (
+			CBB4738E0BCB2F76005A3938 /* UpdateCheckTest */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					1000,
+					20,
+					48.1626,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 197865334;
+			PBXWorkspaceStateSaveDate = 197865334;
+		};
+		perUserProjectItems = {
+			CBB473A60BCB2F8B005A3938 /* PBXBookmark */ = CBB473A60BCB2F8B005A3938 /* PBXBookmark */;
+			CBB473A70BCB2F8B005A3938 /* PBXTextBookmark */ = CBB473A70BCB2F8B005A3938 /* PBXTextBookmark */;
+		};
+		sourceControlManager = CBB473AC0BCB2F8B005A3938 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	8D1107260486CEB800E47090 /* UpdateCheckTest */ = {
+		activeExec = 0;
+		executables = (
+			CBB4738E0BCB2F76005A3938 /* UpdateCheckTest */,
+		);
+	};
+	CBB089710B52AE4200216671 /* UpdateCheckController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1255, 926}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 0}, {1255, 926}}";
+		};
+	};
+	CBB4738E0BCB2F76005A3938 /* UpdateCheckTest */ = {
+		isa = PBXExecutable;
+		activeArgIndex = 2147483647;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = UpdateCheckTest;
+		sourceDirectories = (
+		);
+	};
+	CBB473A60BCB2F8B005A3938 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = CBB089710B52AE4200216671 /* UpdateCheckController.m */;
+	};
+	CBB473A70BCB2F8B005A3938 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CBB089710B52AE4200216671 /* UpdateCheckController.m */;
+		name = "UpdateCheckController.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1595;
+		vrLoc = 0;
+	};
+	CBB473AC0BCB2F8B005A3938 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 1;
+		scmConfiguration = {
+		};
+		scmType = scm.subversion;
+	};
+	CBB473AD0BCB2F8B005A3938 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+}

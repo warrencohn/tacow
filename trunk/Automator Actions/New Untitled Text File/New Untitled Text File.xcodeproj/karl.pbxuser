@@ -31,6 +31,30 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
+			PBXConfiguration.PBXFileTableDataSource3.XCSCMDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					20,
+					1000,
+					20,
+					48.1626,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_SCM_ColumnID,
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
 			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
 				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
@@ -53,11 +77,11 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 197829326;
-			PBXWorkspaceStateSaveDate = 197829326;
+			PBXPerProjectTemplateStateSaveDate = 197865255;
+			PBXWorkspaceStateSaveDate = 197865255;
 		};
 		perUserProjectItems = {
-			CB0B736E0BCA983B00ABD397 /* PBXTextBookmark */ = CB0B736E0BCA983B00ABD397 /* PBXTextBookmark */;
+			CBB473B00BCB2F8D005A3938 /* PBXTextBookmark */ = CBB473B00BCB2F8D005A3938 /* PBXTextBookmark */;
 			CBB499C20BCAA2D300CF8D6D /* PBXTextBookmark */ = CBB499C20BCAA2D300CF8D6D /* PBXTextBookmark */;
 		};
 		sourceControlManager = 658A2DCF067AB96600421F51 /* Source Control */;
@@ -80,18 +104,19 @@
 	};
 	65181750067A8D39005BD953 /* New Untitled Text File.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1383, 926}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1297, 926}}";
 			sepNavSelRange = "{592, 0}";
-			sepNavVisRect = "{{0, 0}, {1383, 926}}";
+			sepNavVisRect = "{{0, 0}, {1297, 926}}";
 		};
 	};
 	658A2DCF067AB96600421F51 /* Source Control */ = {
 		isa = PBXSourceControlManager;
 		fallbackIsa = XCSourceControlManager;
-		isSCMEnabled = 0;
+		isSCMEnabled = 1;
 		scmConfiguration = {
+			SubversionToolPath = /usr/local/bin/svn;
 		};
-		scmType = "";
+		scmType = scm.subversion;
 	};
 	658A2DD0067AB96600421F51 /* Code sense */ = {
 		isa = PBXCodeSenseManager;
@@ -141,7 +166,7 @@
 			sepNavVisRect = "{{0, 0}, {1383, 926}}";
 		};
 	};
-	CB0B736E0BCA983B00ABD397 /* PBXTextBookmark */ = {
+	CBB473B00BCB2F8D005A3938 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 65181750067A8D39005BD953 /* New Untitled Text File.m */;
 		name = "New Untitled Text File.m: 17";
