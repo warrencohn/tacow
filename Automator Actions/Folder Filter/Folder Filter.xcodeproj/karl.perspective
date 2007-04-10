@@ -247,6 +247,8 @@
 			<key>Layout</key>
 			<array>
 				<dict>
+					<key>BecomeActive</key>
+					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -293,8 +295,6 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>3</integer>
-									<integer>1</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -329,8 +329,6 @@
 					<key>Dock</key>
 					<array>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -348,10 +346,10 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>CBDEE5910BCAA2C500AE77BB</string>
+										<string>CBB473F40BCB2FB7005A3938</string>
 										<key>history</key>
 										<array>
-											<string>CBDEE58D0BCAA2C500AE77BB</string>
+											<string>CBDEE5910BCAA2C500AE77BB</string>
 										</array>
 										<key>prevStack</key>
 										<array>
@@ -455,11 +453,11 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>CBDEE4510BCA9A4400AE77BB</string>
+				<string>CBB473F50BCB2FB7005A3938</string>
 				<string>1CA23ED40692098700951B8B</string>
-				<string>CBDEE4520BCA9A4400AE77BB</string>
+				<string>CBB473F60BCB2FB7005A3938</string>
 				<string>CB709BF60997E66400098C10</string>
-				<string>CBDEE4530BCA9A4400AE77BB</string>
+				<string>CBB473F70BCB2FB7005A3938</string>
 				<string>1CA23EDF0692099D00951B8B</string>
 				<string>1CA23EE00692099D00951B8B</string>
 				<string>1CA23EE10692099D00951B8B</string>
@@ -855,7 +853,7 @@
 	<key>StatusbarIsVisible</key>
 	<true/>
 	<key>TimeStamp</key>
-	<real>197829317.760665</real>
+	<real>197865388.434681</real>
 	<key>ToolbarDisplayMode</key>
 	<integer>2</integer>
 	<key>ToolbarIsVisible</key>
@@ -870,9 +868,6 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>CBDEE48C0BCA9D1000AE77BB</string>
-		<string>CBDEE48D0BCA9D1000AE77BB</string>
-		<string>CBDEE48B0BCA9D1000AE77BB</string>
 		<string>/Users/karl/Projects/tacow/Automator Actions/Folder Filter/Folder Filter.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
