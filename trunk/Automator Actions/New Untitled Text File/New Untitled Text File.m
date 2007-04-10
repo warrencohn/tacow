@@ -39,8 +39,8 @@
 	// Create the file.
 	[initialContents writeToFile:newFile atomically:NO encoding:NSUTF8StringEncoding error:nil];
 	
-	// Pass the input on to the next action.
-	return input;
+	// Pass the newly created file on to the next action.
+	return newFile;
 }
 
 @end
