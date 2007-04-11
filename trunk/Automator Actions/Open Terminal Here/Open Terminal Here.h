@@ -2,8 +2,8 @@
 //  Open Terminal Here.h
 //  Open Terminal Here
 //
-//  Created by Kol. Panic on 01/01/07.
-//  Copyright © 2007 Voodoo Ergonomics, Inc. All rights reserved.
+//  Created by Karl Moskowski on 01/01/07.
+//  Copyright 2007 tacow. All rights reserved.
 //
 
 #import <Cocoa/Cocoa.h>
