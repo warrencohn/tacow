@@ -73,7 +73,7 @@
 	<string>${EXECUTABLE_NAME}</string>
 	<key>CFBundleGetInfoString</key>
 	<string>Open Terminal Here 1.0
-	Copyright © 2007 Voodoo Ergonomics, Inc.
+	Copyright © 2007 tacow.
 	All rights reserved.</string>
 	<key>CFBundleIconFile</key>
 	<string></string>
