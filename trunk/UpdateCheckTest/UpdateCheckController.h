@@ -12,7 +12,7 @@
 	IBOutlet NSWindow *prefs;
 }
 
--(IBAction) checkForUpdate:(id) sender;
--(IBAction) showPrefs:(id) sender;
+- (IBAction) checkForUpdate:(id) sender;
+- (IBAction) showPrefs:(id) sender;
 
 @end

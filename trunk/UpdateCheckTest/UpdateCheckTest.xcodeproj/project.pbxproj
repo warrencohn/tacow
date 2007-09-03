@@ -39,7 +39,7 @@
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		32CA4F630368D1EE00C91783 /* UpdateCheckTest_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UpdateCheckTest_Prefix.pch; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		8D1107320486CEB800E47090 /* UpdateCheckTest.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = UpdateCheckTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D1107320486CEB800E47090 /* UpdateCheckTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UpdateCheckTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB320CD90B52D8F4007FC807 /* Sparkle.webloc */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; path = Sparkle.webloc; sourceTree = "<group>"; };
 		CB320CDA0B52D8F4007FC807 /* Sparkle Docs.webloc */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xml; path = "Sparkle Docs.webloc"; sourceTree = "<group>"; };
 		CB320CDB0B52D8F4007FC807 /* SparklePlus.webloc */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; path = SparklePlus.webloc; sourceTree = "<group>"; };
