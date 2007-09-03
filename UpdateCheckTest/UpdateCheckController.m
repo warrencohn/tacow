@@ -12,32 +12,29 @@
 
 // The Roll Your Own method
 
--(IBAction) checkForUpdate:(id) sender {
-	NSURL *url = [[NSURL alloc] initWithScheme:@"http" host:@"127.0.0.1" path:@"/tacow/myAppCurrentVersion.xml"];
-	
-	NSError *err;
-	NSXMLDocument *xml = [[NSXMLDocument alloc] initWithContentsOfURL:url options:(NSXMLNodePreserveWhitespace|NSXMLNodePreserveCDATA) error:&err];
-	if (err != nil && [err code] == -1014)
+- (IBAction) checkForUpdate:(id) sender {
+	NSURL *url = [[NSURL alloc] initWithScheme:@"http" host:@"127.0.0.1" path:@"/tacow/myAppCurrentVersion.xml"];	
+	NSData *xmlData = [url resourceDataUsingCache:NO];
+	NSXMLDocument *xml = [[NSXMLDocument alloc] initWithData:xmlData options:(NSXMLNodePreserveWhitespace|NSXMLNodePreserveCDATA) error:nil];
+	if (!xml)
 		NSRunAlertPanel(@"Error", @"Is Apache running and is the tacow/ directory in the docroot?", @"OK", nil, nil);
 	else {
-			
-			int availableVersion = [[[[xml nodesForXPath:@"./data/availableVersion" error:&err] objectAtIndex:0] stringValue] intValue];
-			
-			int currentVersion = [[[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleVersion"] intValue];
-			
-			if (availableVersion > currentVersion) {
-				NSString *downloadURL = [[[xml nodesForXPath:@"./data/downloadURL" error:&err]  objectAtIndex:0] stringValue];
-				
-				if (NSRunInformationalAlertPanel(@"Update Available",
-												 [NSString stringWithFormat:@"Version %d is available (you have %d). Do you want to visit the download web page?",
-													 availableVersion, currentVersion], @"Yes", @"No", nil) == NSAlertDefaultReturn)
-					[[NSWorkspace sharedWorkspace] openURL:[NSURL URLWithString:downloadURL]];
-				
-			}
+		int availableVersion = [[[[xml nodesForXPath:@"./data/availableVersion" error:nil] objectAtIndex:0] stringValue] intValue];
+		int currentVersion = [[[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleVersion"] intValue];
+		if ((availableVersion > currentVersion) &&		
+			(NSAlertDefaultReturn == NSRunInformationalAlertPanel(@"Update Available",
+																  [NSString stringWithFormat:@"Version %d is available (you have %d). "
+																	  "Do you want to visit the download web page?",
+																	  availableVersion, currentVersion], @"Yes", @"No", nil))) {
+			NSString *downloadURL = [[[xml nodesForXPath:@"./data/downloadURL" error:nil]  objectAtIndex:0] stringValue];
+			[[NSWorkspace sharedWorkspace] openURL:[NSURL URLWithString:downloadURL]];
 		}
+	}
+	[xml release], xml == nil;
+	[url release], url == nil;
 }
 
--(IBAction) showPrefs:(id) sender {
+- (IBAction) showPrefs:(id) sender {
 	[prefs makeKeyAndOrderFront:sender];
 }
 
