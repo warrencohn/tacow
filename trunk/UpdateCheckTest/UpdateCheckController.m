@@ -30,8 +30,8 @@
 			[[NSWorkspace sharedWorkspace] openURL:[NSURL URLWithString:downloadURL]];
 		}
 	}
-	[xml release], xml == nil;
-	[url release], url == nil;
+	[xml release], xml = nil;
+	[url release], url = nil;
 }
 
 - (IBAction) showPrefs:(id) sender {
