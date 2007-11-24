@@ -1,6 +1,7 @@
 // !$*UTF8*$!
 {
 	089C1669FE841209C02AAC07 /* Project object */ = {
+		activeArchitecture = i386;
 		activeBuildConfigurationName = Release;
 		activeExecutable = 658A2E03067AB99300421F51 /* Automator */;
 		activeTarget = 8D5B49AC048680CD000E48DA /* Open Terminal Here */;
@@ -31,7 +32,7 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					1000,
+					1080,
 					20,
 					48,
 					43,
@@ -89,8 +90,8 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					200,
-					660,
+					1040,
+					60,
 					20,
 					48,
 					43,
@@ -106,12 +107,12 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 198005768;
-			PBXWorkspaceStateSaveDate = 198005768;
+			PBXPerProjectTemplateStateSaveDate = 217573004;
+			PBXWorkspaceStateSaveDate = 217573004;
 		};
 		perUserProjectItems = {
-			CB31BF260BCD540A00BCCB05 /* PBXTextBookmark */ = CB31BF260BCD540A00BCCB05 /* PBXTextBookmark */;
-			CB332E6B0BCD522000203BE3 /* PBXTextBookmark */ = CB332E6B0BCD522000203BE3 /* PBXTextBookmark */;
+			CB08F9170CF7E6BF009A9E91 /* PBXTextBookmark */ = CB08F9170CF7E6BF009A9E91 /* PBXTextBookmark */;
+			CB08F9180CF7E6BF009A9E91 /* PBXTextBookmark */ = CB08F9180CF7E6BF009A9E91 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 658A2DCF067AB96600421F51 /* Source Control */;
 		userBuildSettings = {
@@ -133,8 +134,9 @@
 	};
 	65181750067A8D39005BD953 /* Open Terminal Here.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1272, 926}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1258, 926}}";
 			sepNavSelRange = "{658, 0}";
+			sepNavVisRange = "{0, 922}";
 			sepNavVisRect = "{{0, 0}, {1272, 926}}";
 		};
 	};
@@ -143,6 +145,7 @@
 		fallbackIsa = XCSourceControlManager;
 		isSCMEnabled = 1;
 		scmConfiguration = {
+			repositoryName = tacow;
 		};
 		scmType = scm.subversion;
 	};
@@ -152,7 +155,6 @@
 	};
 	658A2E03067AB99300421F51 /* Automator */ = {
 		isa = PBXExecutable;
-		activeArgIndex = 0;
 		activeArgIndices = (
 			YES,
 		);
@@ -160,6 +162,7 @@
 			"-action \"Open Terminal Here.action\"",
 		);
 		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
 		configStateDict = {
 		};
 		customDataFormattersEnabled = 1;
@@ -197,7 +200,7 @@
 			sepNavWindowFrame = "{{15, 109}, {1237, 764}}";
 		};
 	};
-	CB31BF260BCD540A00BCCB05 /* PBXTextBookmark */ = {
+	CB08F9170CF7E6BF009A9E91 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 65181750067A8D39005BD953 /* Open Terminal Here.m */;
 		name = "Open Terminal Here.m: 26";
@@ -207,7 +210,7 @@
 		vrLen = 922;
 		vrLoc = 0;
 	};
-	CB332E6B0BCD522000203BE3 /* PBXTextBookmark */ = {
+	CB08F9180CF7E6BF009A9E91 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 65181750067A8D39005BD953 /* Open Terminal Here.m */;
 		name = "Open Terminal Here.m: 26";
