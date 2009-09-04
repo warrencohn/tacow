@@ -47,7 +47,7 @@
 		output = [NSArray arrayWithObject:path];
 	}
 	
-	return input;
+	return output;
 }
 
 @end
