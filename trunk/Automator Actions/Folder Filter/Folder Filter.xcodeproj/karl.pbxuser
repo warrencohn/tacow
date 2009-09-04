@@ -1,7 +1,6 @@
 // !$*UTF8*$!
 {
 	089C1669FE841209C02AAC07 /* Project object */ = {
-		activeArchitecture = i386;
 		activeBuildConfigurationName = Release;
 		activeExecutable = 658A2E03067AB99300421F51 /* Automator */;
 		activeTarget = 8D5B49AC048680CD000E48DA /* Folder Filter */;
@@ -18,7 +17,7 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					1080,
+					10,
 					20,
 					48,
 					43,
@@ -69,13 +68,14 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 217573063;
-			PBXWorkspaceStateSaveDate = 217573063;
+			PBXPerProjectTemplateStateSaveDate = 273765753;
+			PBXWorkspaceStateSaveDate = 273765753;
 		};
 		perUserProjectItems = {
-			CB08F9350CF7E6FA009A9E91 /* PBXTextBookmark */ = CB08F9350CF7E6FA009A9E91 /* PBXTextBookmark */;
-			CB08F93A0CF7E6FA009A9E91 /* PBXTextBookmark */ = CB08F93A0CF7E6FA009A9E91 /* PBXTextBookmark */;
-			CBDEE58E0BCAA2C500AE77BB /* PBXTextBookmark */ = CBDEE58E0BCAA2C500AE77BB /* PBXTextBookmark */;
+			CB3AF632105155C00022D312 /* PBXTextBookmark */ = CB3AF632105155C00022D312 /* PBXTextBookmark */;
+			CB3AF633105155C30022D312 /* PBXTextBookmark */ = CB3AF633105155C30022D312 /* PBXTextBookmark */;
+			CB3AF63E105155D90022D312 /* PBXTextBookmark */ = CB3AF63E105155D90022D312 /* PBXTextBookmark */;
+			CB3AF642105155D90022D312 /* PBXTextBookmark */ = CB3AF642105155D90022D312 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 658A2DCF067AB96600421F51 /* Source Control */;
 		userBuildSettings = {
@@ -104,9 +104,9 @@
 	};
 	65181750067A8D39005BD953 /* Folder Filter.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1258, 926}}";
-			sepNavSelRange = "{357, 0}";
-			sepNavVisRange = "{0, 1755}";
+			sepNavIntBoundsRect = "{{0, 0}, {1239, 911}}";
+			sepNavSelRange = "{138, 0}";
+			sepNavVisRange = "{0, 1756}";
 			sepNavVisRect = "{{0, 0}, {1272, 926}}";
 		};
 	};
@@ -116,6 +116,9 @@
 		isSCMEnabled = 1;
 		scmConfiguration = {
 			repositoryName = tacow;
+			repositoryNamesForRoots = {
+				"" = tacow;
+			};
 		};
 		scmType = scm.subversion;
 	};
@@ -136,6 +139,9 @@
 		configStateDict = {
 		};
 		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
 		debuggerPlugin = GDBDebugging;
 		disassemblyDisplayState = 0;
 		dylibVariantSuffix = "";
@@ -149,6 +155,7 @@
 		name = Automator;
 		savedGlobals = {
 		};
+		showTypeColumn = 0;
 		sourceDirectories = (
 		);
 	};
@@ -169,34 +176,44 @@
 			sepNavVisRect = "{{0, 460}, {1272, 926}}";
 		};
 	};
-	CB08F9350CF7E6FA009A9E91 /* PBXTextBookmark */ = {
+	CB3AF632105155C00022D312 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 65181750067A8D39005BD953 /* Folder Filter.m */;
-		name = "Folder Filter.m: 17";
+		name = "Folder Filter.m: 9";
 		rLen = 0;
-		rLoc = 357;
+		rLoc = 138;
 		rType = 0;
-		vrLen = 1755;
+		vrLen = 267;
 		vrLoc = 0;
 	};
-	CB08F93A0CF7E6FA009A9E91 /* PBXTextBookmark */ = {
+	CB3AF633105155C30022D312 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 65181750067A8D39005BD953 /* Folder Filter.m */;
-		name = "Folder Filter.m: 17";
+		name = "Folder Filter.m: 9";
 		rLen = 0;
-		rLoc = 357;
+		rLoc = 138;
 		rType = 0;
-		vrLen = 1755;
+		vrLen = 1756;
 		vrLoc = 0;
 	};
-	CBDEE58E0BCAA2C500AE77BB /* PBXTextBookmark */ = {
+	CB3AF63E105155D90022D312 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 65181750067A8D39005BD953 /* Folder Filter.m */;
-		name = "Folder Filter.m: 32";
+		name = "Folder Filter.m: 9";
 		rLen = 0;
-		rLoc = 1136;
+		rLoc = 138;
 		rType = 0;
-		vrLen = 1755;
+		vrLen = 1756;
+		vrLoc = 0;
+	};
+	CB3AF642105155D90022D312 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 65181750067A8D39005BD953 /* Folder Filter.m */;
+		name = "Folder Filter.m: 9";
+		rLen = 0;
+		rLoc = 138;
+		rType = 0;
+		vrLen = 1756;
 		vrLoc = 0;
 	};
 }
